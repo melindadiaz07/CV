@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+body {
+  background: url(./images/workbench1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#header-container{
+  height: auto;
+  width: 100vw;
+  position: fixed;
+  margin-top: 20vh;
+  background: rgba(243, 241, 241, 0.6);
+  padding: 7vh 0;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#brand-header{
+  height: 50vh;
+  display: inherit;
+  margin: 0 auto;
+  filter: grayscale(1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logo-header{
+  display: inherit;
+  height: 17vh;
+  margin: 0 auto;
+  padding-top: 5vh;
 }
